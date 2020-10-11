@@ -44,19 +44,18 @@ function conky_get_audio()
 		for line in string.gmatch(sound, "[^\r\n]+") do
 			v,s = string.match(line,"^%s+Volume:(.+)")
 			if v ~= nil then
-				i=i+1
 				if i == tonumber(audio_id) then
 					m = string.match(v,"%d+[^%d]+(%d+)")
 					volume=m	
 				end
-
+				i=i+1
 			end
 			m = string.match(line,"^%s+Mute: (.+)")	
 			if m ~= nil then
-				mi=mi+1	
 				if mi == tonumber(audio_id) then
 					mute = m
 				end
+				mi=mi+1	
 			end
 		end
 	end
