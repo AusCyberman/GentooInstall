@@ -7,7 +7,7 @@ emerge --config sys-libs/timezone-data
 #FSTAB
 emerge sys-fs/ntfs3g
 cp kernel/fstab /etc/fstab
-
+emerge --ask sys-kernel/linux-firmware
 
 #CHROME
 emerge google-chrome-stable
