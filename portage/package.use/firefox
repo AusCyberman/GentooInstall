@@ -1,0 +1,3 @@
+www-client/firefox -wayland clang
+www-client/firefox-bin -wayland clang
+media-libs/libvpx postproc

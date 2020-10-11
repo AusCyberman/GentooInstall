@@ -1,0 +1,5 @@
+x11-base/xorg-server -suid
+x11-drivers/nvidia-drivers static-libs uvm tools
+x11-terms/rxvt-unicode 265-color xft font-styles
+media-sound/spotify systray pulseaudio
+

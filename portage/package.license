@@ -1,0 +1,9 @@
+x11-drivers/nvidia-drivers NVIDIA-r2
+=sys-kernel/linux-firmware-20200918 linux-fw-redistributable no-source-code
+>=www-client/google-chrome-85.0.4183.121 google-chrome
+media-sound/spotify ~amd64 Spotify
+net-im/discord-bin all-rights-reserved
+net-im/teams ms-teams-pre
+games-util/steam-launcher ValveSteamLicense
+# required by dev-util/nvidia-cuda-toolkit (argument)
+>=dev-util/nvidia-cuda-toolkit-11.0.3 NVIDIA-CUDA

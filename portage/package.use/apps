@@ -1,0 +1,6 @@
+media-video/ffmpeg chromium
+media-gfx/blender cuda cycles openimageio opensubdiv
+media-libs/opensubdiv cuda
+*/* PYTHON_TARGETS: python3_7
+games-util/steam-launcher abi_x86_32
+>=www-client/w3m-0.5.3_p20180125 imlib
