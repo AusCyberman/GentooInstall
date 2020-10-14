@@ -8,12 +8,14 @@ if [ "$#" -ne 1 ]; then
 	exit 1
 fi
 HOME=/home/$1
-emerge rxvt-unicode xrdb media-fonts/inconsolata media-fonts/fontawesome 
+emerge rxvt-unicode xrdb media-fonts/inconsolata media-fonts/fontawesome conky
 cp .xinitrc ~/.xinitrc
+cp .conkyrc ~/.conkyrc
 cp .Xresources ~/.Xresources
-cp toolbar.py ~/
+cp get_audio.lua ~/
 cp -r dmenu ~/
 cp -r dwm ~/
+
 
 
 #Install
