@@ -10,12 +10,10 @@ fi
 HOME=/home/$1
 emerge rxvt-unicode xrdb media-fonts/inconsolata media-fonts/fontawesome 
 cp .xinitrc ~/.xinitrc
-cp .conkyrc ~/.conkyrc
 cp .Xresources ~/.Xresources
 cp toolbar.py ~/
 cp -r dmenu ~/
 cp -r dwm ~/
-
 
 
 #Install
