@@ -1,7 +1,7 @@
 x11-drivers/nvidia-drivers NVIDIA-r2
 =sys-kernel/linux-firmware-20200918 linux-fw-redistributable no-source-code
 >=www-client/google-chrome-85.0.4183.121 google-chrome
-media-sound/spotify ~amd64 Spotify
+media-sound/spotify Spotify
 net-im/discord-bin all-rights-reserved
 net-im/teams ms-teams-pre
 games-util/steam-launcher ValveSteamLicense
@@ -14,3 +14,5 @@ games-util/steam-launcher ValveSteamLicense
 >=dev-util/pycharm-professional-2020.1.3 PyCharm PyCharm_Academic PyCharm_Classroom PyCharm_OpenSource PyCharm_Preview
 # required by intel-microcode (argument)
 >=sys-firmware/intel-microcode-20200616_p20200921 intel-ucode
+# required by skypeforlinux (argument)
+net-im/skypeforlinux Skype-TOS
